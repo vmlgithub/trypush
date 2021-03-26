@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <title>jQuery Assignment #3 - Ninja to Cat</title>
+    <style>
+        img{
+            width: 200px;
+            display: block;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="hideImage1" src="https://i.imgur.com/S6rGoXL.png"  alt="cat1">
+    <img class="showImage1" src="https://i.imgur.com/47xoQgL.png" alt="ninja1">
+    <img class="hideImage2" src="https://i.imgur.com/fumd2Za.png" alt="cat2">
+    <img class="showImage2" src="https://i.imgur.com/Wt45dnG.png" alt="ninja2">
+    <img class="hideImage3" src="https://i.imgur.com/IPmKdjB.png" alt="cat3">
+    <img class="showImage3" src="https://i.imgur.com/SoTO7j7.png" alt="ninja3">
+    <img class="hideImage4" src="https://i.imgur.com/tKS6zny.png" alt="cat4">
+    <img class="showImage4" src="https://i.imgur.com/pevII6C.png" alt="ninja4">
+    <img class="hideImage5" src="https://i.imgur.com/waeQKs1.png" alt="cat5">
+    <img class="showImage5" src="https://i.imgur.com/cUMh8hp.png" alt="ninja5">
+
+   <script>
+        $('.hideImage1').hide();
+            $('.showImage1,.hideImage1').on('click',function(){
+                $('.showImage1,.hideImage1').toggle()
+                });
+                $('.hideImage2').hide();
+                    $('.showImage2,.hideImage2').on('click',function(){
+                        $('.showImage2,.hideImage2').toggle()
+                        });
+                        $('.hideImage3').hide();
+                           $('.showImage3,.hideImage3').on('click',function(){
+                               $('.showImage3,.hideImage3').toggle()
+                                });
+                                $('.hideImage4').hide();
+                                    $('.showImage4,.hideImage4').on('click',function(){
+                                    $('.showImage4,.hideImage4').toggle()
+                                    });
+                                    $('.hideImage5').hide();
+                                       $('.showImage5,.hideImage5').on('click',function(){
+                                       $('.showImage5,.hideImage5').toggle()
+                                       });
+    </script>    
+</body>
+</html>
